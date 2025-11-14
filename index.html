@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/7867/7867852.png">
     <title>Daynlight's Portfolio</title>
   </head>
   
@@ -24,6 +25,32 @@
         <h1>About Me</h1>
         <img src="https://wsrv.nl/?url=wsrv.nl/?url=avatars.githubusercontent.com/u/62157770?v=4&w=300&h=300&fit=cover&mask=circle">
         <h2>Daynlight</h2>
+        <h3><a target="_blank" href="https://github.com/Daynlight">github</a></h3>
+        <h3><a target="_blank" href="https://leetcode.com/u/Daynlight/">leetcode</a></h3>
+        <h3><a target="_blank" href="https://codestats.net/users/Kokomichrzan">codestats</a></h3>
+        <h4>Hi I am Daniel. I am programming for over 4 years. Mainly in C and C++. I used to be web dev but now I am focused on software development. I like topics associated with rendering and computer graphics. I also learn about AI even if I am not big fan of topic.</h4>
+
+              
+        <img class="snake" alt="github-snake" src="https://raw.githubusercontent.com/Daynlight/Daynlight/791a6bd1a8ea86982e8a18273bc4658228022cfb/github-contribution-grid-snake-dark.svg" />
+
+        <table>
+          <tr>
+            <td>
+              <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=daynlight&theme=algolia">
+            </td>
+            <td>
+              <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=daynlight&theme=algolia">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=daynlight&theme=algolia">
+            </td>
+            <td>
+              <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=daynlight&theme=algolia">
+            </td>
+          </tr>
+        </table>
 
       </div>
     </section>
@@ -142,7 +169,18 @@
 
     <section id="contact">
       <h1>Contact</h1>
-      
+      <div>
+        <form id="contactForm">
+          <input type="email" id="from_email" name="from_email" placeholder="Your email..." required>
+          <textarea cols="10" rows="10" id="message" name="message" placeholder="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+
+        <p id="status"></p>
+
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="index.js"></script>
+      </div>
     </section>
   </body>
 

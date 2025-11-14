@@ -55,7 +55,7 @@ nav li{
   border-color: white;
   border-radius: 20px;
   border-style: double;
-  transition: 1s;
+  transition: 500ms;
 }
 
 nav li:hover{
@@ -63,8 +63,12 @@ nav li:hover{
   border-color: rgb(163, 163, 163);
 }
 
-
-
+h3{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  border: 0;
+  padding: 0;
+}
 
 h1{
   margin: 0;
@@ -73,6 +77,11 @@ h1{
 a{
   color: var(--text-color);
   text-decoration-line: none;
+  transition: 500ms;
+}
+
+a:hover{
+  color: #a1a1a1;
 }
 
 section{
@@ -91,6 +100,10 @@ section div {
   align-items: center;
 }
 
+#about div{
+  width: 60%;
+}
+
 #about{
   background-color: var(--about-background);
 }
@@ -100,15 +113,30 @@ section div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 100px;
 }
 
 #contact{
   background-color: var(--contact-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+#contact div{
+  width: 80%;
+}
+
+#contact div form, #contact div input{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
 .project{
-  margin-top: 20px;
   width: 80%;
   display: flex;
   justify-content: center;
@@ -125,4 +153,8 @@ section div {
 
 .project h1{
   text-align: center;
+}
+
+form textarea{
+  width: 100%;
 }
