@@ -1,25 +1,22 @@
 :root{
   --bg-color: #121212;
-  --menu-background: #121212;
   --about-background: #004367;
   --projects-background: #000267;
   --contact-background: #006367;
   
   --text-color: white;
   --font-family: monospace;
-
+  
   --transition-time: 500ms;
-
+  
+  --menu-background: linear-gradient(#0e0e0e, #00000000);
   --menu-margin: 5px;
   --menu-padding: 20px;
   --menu-font-size: 15px;
-
   --menu-item-border: white double;
   --menu-item-border-radius: 15px;
-
   --menu-item-hover-border-color: #505050;
   --menu-item-hover-background: #202020;
-
   --menu-item-active-border-color: #465870;
 
   --link-hover-color: #87e648;
@@ -70,10 +67,10 @@ a:hover{
 /* //////// Menu //////// */
 /* ////////////////////// */
 header{
-  background-color: var(--menu-background);
+  background-image: var(--menu-background);
   
   display: flex;
-  position: sticky;
+  position: fixed;
 
   justify-content: right;
   top: 0;
