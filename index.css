@@ -82,6 +82,12 @@ header{
   width: 100%;
 }
 
+header h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 nav{
   display: flex;
 }
