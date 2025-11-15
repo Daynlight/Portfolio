@@ -82,7 +82,7 @@ header{
   width: 100%;
 }
 
-header h3{
+header h1{
   display: flex;
   justify-content: center;
   align-items: center;
