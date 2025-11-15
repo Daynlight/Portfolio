@@ -1,3 +1,6 @@
+///////////////////
+///// EmailJS /////
+///////////////////
 document.addEventListener("DOMContentLoaded", function () {
   emailjs.init("Xk4NkOlVjyzD5tjqD");
 
@@ -23,3 +26,32 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
+
+
+///////////////////////////
+///// Flying Projects /////
+///////////////////////////
+document.addEventListener("DOMContentLoaded", () => {
+  const projects = document.querySelectorAll(".project");
+
+  projects.forEach((proj, i) => {
+    if (i % 2 === 0) proj.classList.add("left");
+    else proj.classList.add("right");
+  });
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    },
+    { threshold: 0.4 }
+  );
+
+  projects.forEach((proj) => observer.observe(proj));
+});
+

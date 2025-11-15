@@ -1,25 +1,23 @@
 :root{
   --bg-color: #121212;
-  --menu-background: #121212;
   --about-background: #004367;
   --projects-background: #000267;
   --contact-background: #006367;
   
   --text-color: white;
   --font-family: monospace;
-
+  
   --transition-time: 500ms;
-
+  --transition-fly: 1s;
+  
+  --menu-background: linear-gradient(#000000, #00000000);
   --menu-margin: 5px;
   --menu-padding: 20px;
   --menu-font-size: 15px;
-
   --menu-item-border: white double;
   --menu-item-border-radius: 15px;
-
   --menu-item-hover-border-color: #505050;
   --menu-item-hover-background: #202020;
-
   --menu-item-active-border-color: #465870;
 
   --link-hover-color: #87e648;
@@ -44,6 +42,8 @@ html, body{
   scroll-behavior: smooth;
   
   margin: 0px;
+
+  overflow-x: hidden;
 }
 
 h3{
@@ -62,6 +62,11 @@ a:hover{
   color: var(--link-hover-color);
 }
 
+.offset{
+  padding-top: var(--offset);
+}
+
+
 
 
 
@@ -70,16 +75,23 @@ a:hover{
 /* //////// Menu //////// */
 /* ////////////////////// */
 header{
-  background-color: var(--menu-background);
+  background-image: var(--menu-background);
   
   display: flex;
-  position: sticky;
+  position: fixed;
 
   justify-content: right;
   top: 0;
   right: 0;
   
   width: 100%;
+
+  z-index: 1000;
+}
+
+header div{
+  flex: 1;
+  text-align: center;
 }
 
 nav{
@@ -124,8 +136,10 @@ nav li:active{
 section{
   width: 100%;
   min-height: 100vh;
+
   margin: 0px;
   padding: 0px;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,6 +151,13 @@ section div {
   align-items: center;
 }
 
+
+
+
+
+/* /////////////////////// */
+/* //////// About //////// */
+/* /////////////////////// */
 #about div{
   width: 60%;
 }
@@ -147,16 +168,24 @@ section div {
   background-color: var(--about-background);
 }
 
+.snake{
+  border-radius: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
+
+
+/* ////////////////////////// */
+/* //////// Projects //////// */
+/* ////////////////////////// */
 #projects{
   background-color: var(--projects-background);
   display: flex;
   flex-direction: column;
   align-items: center;
 
-}
-
-.offset{
-  padding-top: var(--offset);
 }
 
 #projects img{
@@ -171,26 +200,6 @@ section div {
   margin: 0 20px;
   float: left;
 }
-
-#contact{
-  background-color: var(--contact-background);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 100px;
-}
-
-#contact div{
-  width: 80%;
-}
-
-#contact div form, #contact div input{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 
 .project{
   width: 80%;
@@ -211,12 +220,57 @@ section div {
   text-align: center;
 }
 
-form textarea{
-  width: 100%;
+.project {
+  opacity: 0;
+  transform: translateX(0);
+  transition: opacity var(--transition-fly) ease-out, transform var(--transition-fly) ease-out;
 }
 
-.snake{
-  background-color: rgba(255, 255, 255, 0.247);
-  border-radius: 20px;
-  margin-bottom: 20px;
+.project.show {
+  opacity: 1;
+}
+
+.project.left {
+  transform: translateX(-100px);
+}
+
+.project.left.show {
+  transform: translateX(0);
+}
+
+.project.right {
+  transform: translateX(100px);
+}
+.project.right.show {
+  transform: translateX(0);
+}
+
+
+
+
+
+/* ///////////////////////// */
+/* //////// Contact //////// */
+/* ///////////////////////// */
+#contact{
+  background-color: var(--contact-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+#contact div{
+  width: 80%;
+}
+
+#contact div form, #contact div input, #contact div button{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form textarea{
+  width: 100%;
 }
