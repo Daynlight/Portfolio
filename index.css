@@ -9,7 +9,7 @@
   
   --transition-time: 500ms;
   
-  --menu-background: linear-gradient(#0e0e0e, #00000000);
+  --menu-background: linear-gradient(#000000, #00000000);
   --menu-margin: 5px;
   --menu-padding: 20px;
   --menu-font-size: 15px;
@@ -77,6 +77,11 @@ header{
   right: 0;
   
   width: 100%;
+}
+
+header div{
+  flex: 1;
+  text-align: center;
 }
 
 nav{
