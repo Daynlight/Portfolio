@@ -13,12 +13,11 @@ GitHub: [github.com/Daynlight](https://github.com/Daynlight)
 
 ## About me
 
-Software developer with over 4 years of programming experience, currently focused on C and C++. I enjoy low-level and cross-platform development, including networking, windowing, engines, and tools. I have strong ambitions and want to keep improving my skills in systems programming and graphics.
+Software developer with over 4 years of non‑commercial programming experience, currently focused on C and C++. I enjoy low‑level and cross‑platform development, including networking, windowing, engines, and tools. I have strong ambitions and want to keep improving my skills in systems programming, performance, and graphics. I learn new concepts quickly and can implement them with relatively little ramp‑up time. I’m also good at understanding and re‑creating existing systems based on ideas, documentation, or limited reference code.
 
 ## Programming Languages
 
 - C, C++
-- C#
 - Python
 - SQL
 - GLSL, HLSL
@@ -27,26 +26,29 @@ Software developer with over 4 years of programming experience, currently focuse
 ## Tools & Platforms
 
 - **Build Systems**: CMake, Premake
-- **VCS / CI**: Git, GitHub, Github workflows
+- **VCS / CI**: Git, GitHub, Github Actions
 - **OS**: Linux, Windows
 - **Containers**: Docker
 - **Databases**: MySQL
-- **IDEs**: Visual Studio, Vs Code
+- **IDEs**: Visual Studio, VS Code
 - **Documentation**: Markdown
+- **Debugging / Profiling**: gdb, Valgrind, KCachegrind
 
 ## Other Skills
 
 - **WebDev**: HTML, CSS, JavaScript
 - **CSS**: Bootstrap, SASS
-- **Frameworks**: React.js, Vue.js, Express.js
+- **Frameworks**: basic experience with Node.js, React.js, Vue.js, Express.js
+- **2D/3D content creation**: Blender (basic modeling), GIMP, Krita
 
 ## Interests
 
 - Low-level programming and systems design
 - Computer graphics and rendering
 - Game engines and developer tools
-- Performance and optimization
+- Performance and optimization, especially in game engines
 - Occasionally drawing and 3D/2D modeling
+
 ## Experience
 
 - Open-source contributions:
@@ -66,7 +68,7 @@ Software developer with over 4 years of programming experience, currently focuse
 
 - Library for creating windows and handling events on multiple platforms.
 - Provides a simple API for rendering and input, used by other projects like PixForge.
-- Have integration with imgui for editor gui. 
+- Integration with imgui for editor gui. 
 
 ### Network – Cross-Platform Networking Library (C)
 
