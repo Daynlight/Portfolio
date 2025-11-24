@@ -274,3 +274,24 @@ section div {
 form textarea{
   width: 100%;
 }
+
+
+
+
+
+
+@media screen and (max-width: 874px){
+.icons{
+  display: none;
+}
+}
+
+@media screen and (max-width: 702px){
+.stats{
+  display: none;
+}
+
+nav{
+  display: none;
+}
+}
