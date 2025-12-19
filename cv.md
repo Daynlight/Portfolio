@@ -106,6 +106,12 @@ Software developer with over **4 years** of **non‑commercial** programming exp
   - **Texture manager** that optimize texture savings on GPU via **mipmaps** and **data life time analyze**.
   - Add more **Rendering APIs** like ```Vulkan```, ```DirectX```.
 
+### [Network](https://github.com/daynlight/Network) – Cross-Platform Networking Library (C)
+
+- Lightweight C library that wraps TCP/UDP sockets for easier networking in C/C++.
+- Focuses on a simple API, non-blocking I/O, and cross-platform support.
+- Contains good github **wiki** and **community standards**.
+
 ### [Graphite](https://github.com/daynlight/Graphite) – Math Visualization Tool (C++) **[In Development]**
 
 - Script **hot-swapping** base on last write time.
@@ -121,9 +127,3 @@ Software developer with over **4 years** of **non‑commercial** programming exp
   - **3D support** with **Level of details**.
   - Init with **template**.
   - **Windows** support.
-
-### [Network](https://github.com/daynlight/Network) – Cross-Platform Networking Library (C)
-
-- Lightweight C library that wraps TCP/UDP sockets for easier networking in C/C++.
-- Focuses on a simple API, non-blocking I/O, and cross-platform support.
-- Contains good github **wiki** and **community standards**.
