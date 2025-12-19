@@ -94,6 +94,8 @@ Software developer with over **4 years** of **non‑commercial** programming exp
 - This demonstrates **understanding of low-level architecture**, **instructions**, and **execution**.
 - This is an **old project** and the most **popular** on my GitHub.
 
+
+
 ### [CWindow](https://github.com/daynlight/CWindow) – Cross-Platform Window & Rendering Library (C++)
 
 - Library for **creating windows** and **handling events** on multiple platforms [```Windows```, ```Linux```].
@@ -106,11 +108,7 @@ Software developer with over **4 years** of **non‑commercial** programming exp
   - **Texture manager** that optimize texture savings on GPU via **mipmaps** and **data life time analyze**.
   - Add more **Rendering APIs** like ```Vulkan```, ```DirectX```.
 
-### [Network](https://github.com/daynlight/Network) – Cross-Platform Networking Library (C)
 
-- Lightweight C library that wraps TCP/UDP sockets for easier networking in C/C++.
-- Focuses on a simple API, non-blocking I/O, and cross-platform support.
-- Contains good github **wiki** and **community standards**.
 
 ### [Graphite](https://github.com/daynlight/Graphite) – Math Visualization Tool (C++) **[In Development]**
 
@@ -127,3 +125,21 @@ Software developer with over **4 years** of **non‑commercial** programming exp
   - **3D support** with **Level of details**.
   - Init with **template**.
   - **Windows** support.
+
+
+
+### [Network](https://github.com/daynlight/Network) – Cross-Platform Networking Library (C)
+
+- Lightweight C library that wraps **TCP/UDP sockets** for easier **networking** in ```C```/```C++```.
+- Focuses on **non-blocking I/O**, and **cross-platform support**.
+<!-- - Contains good github **wiki** and **community standards**. -->
+- Currently supports ```Windows``` and ```Linux```.
+- Contains example with **chat** for **multiple users**.
+- **In plans**:
+  - ```x258831``` encryption.
+  - ```LZ4```/```RLE``` compression.
+  - **Android** platform.
+
+
+
+<!-- ### [PixForge](https://github.com/daynlight/PixForge) – Cross-Platform 2D Game Engine (C++) -->
