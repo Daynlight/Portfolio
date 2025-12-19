@@ -142,4 +142,7 @@ Software developer with over **4 years** of **non‑commercial** programming exp
 
 
 
-<!-- ### [PixForge](https://github.com/daynlight/PixForge) – Cross-Platform 2D Game Engine (C++) -->
+### [PixForge](https://github.com/daynlight/PixForge) – Cross-Platform 2D Game Engine (C++) **[Planned]**
+
+- **Future project**: cross-platform **2D game engine** in C++.
+- Will focus on **modularity**, **performance**, **addons**, **multiple renderers** and ease of use for **indie developers**.
