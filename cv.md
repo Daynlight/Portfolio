@@ -98,6 +98,7 @@ Software developer with over **4 years** of **non‑commercial** programming exp
 
 - Library for **creating windows** and **handling events** on multiple platforms [```Windows```, ```Linux```].
 - Provides ```Renderer```, ```DrawsShader```, ```ComputeShader```, ```Uniform```, ```Texture```, ```Mesh``` designed for **modularity** and **stability**. Used in other projects like [Graphite](https://github.com/daynlight/Graphite).
+<!-- - Contains good github **wiki** and **community standards**. -->
 - Integration with imgui for editor gui.
 - **Ready for simple usage**, but in future I will: 
   - Extend shaders by adding ```geometry shader```, ```tessellation shader``` etc. And adding ```enum``` types. 
@@ -105,15 +106,24 @@ Software developer with over **4 years** of **non‑commercial** programming exp
   - **Texture manager** that optimize texture savings on GPU via **mipmaps** and **data life time analyze**.
   - Add more **Rendering APIs** like ```Vulkan```, ```DirectX```.
 
-### [Graphite](https://github.com/daynlight/Graphite) – Cross-Platform Math Visualization Tool (C++) **[In Development]**
+### [Graphite](https://github.com/daynlight/Graphite) – Math Visualization Tool (C++) **[In Development]**
 
-- Script hot-swapping base on last write time.
-- Sandbox mode for safer usage.
-- Custom Flags like **verbose/debug**, **sandbox**, **init**.
+- Script **hot-swapping** base on last write time.
+- Uses ```fork``` method as testing in **Sandbox mode** for safer **script edition**.
+- Custom Flags like **verbose/debug**, **sandbox**, **init**, **help**.
 - Uses my other library [CWindow](https://github.com/daynlight/CWindow) for rendering.
-- Installer that copies required headers to ```/usr/local/include/Graphite/```.
+- Contains good github **wiki** and **community standards**.
+- **Installer** that copies **required headers** to ```/usr/local/include/Graphite/```.
+- Now is focused on **Linux**, but in future I will add **cross-platform support**. 
+- **In plans**:
+  - **Package Manager** for community.
+  - Drawing optimization via **function norm** and **SSBO**.
+  - **3D support** with **Level of details**.
+  - Init with **template**.
+  - **Windows** support.
 
 ### [Network](https://github.com/daynlight/Network) – Cross-Platform Networking Library (C)
 
 - Lightweight C library that wraps TCP/UDP sockets for easier networking in C/C++.
 - Focuses on a simple API, non-blocking I/O, and cross-platform support.
+- Contains good github **wiki** and **community standards**.
