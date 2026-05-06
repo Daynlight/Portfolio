@@ -35,6 +35,7 @@ Software developer with over **6 years** of programming experience, currently fo
 - ```GLSL```.
 - ```Typescript```/```Javascript```.
 - ```SQL```.
+-  ```SVG```.
 
 
 
