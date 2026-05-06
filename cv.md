@@ -17,13 +17,19 @@ LinkedIn: [www.linkedin.com/in/daniel-stodulski-b4a715271](https://www.linkedin.
 
 
 
+<div align="center">
+
 ## About me
+</div>
 
 Software developer with over **6 years** of programming experience, currently focused on ```C``` and ```C++```. I enjoy **low‑level** and **cross‑platform** development, including ```networking```, ```windowing```, ```engines```, ```tools``` and ```optimization```. I have strong **ambitions** and want to keep **improving my skills** in **systems programming**, **architecture**, **performance**, and **graphics**. I learn new concepts **quickly** and can **implement** them with relatively little ramp‑up time. I’m also good at **understanding** and **re‑creating** existing systems based on ```ideas```, ```problems that they solved```, ```documentation``` or ```limited reference code```.
 
 
 
+<div align="center">
+
 ## Programming Languages
+</div>
 
 - ```C```/```C++```.
 - ```C#```, ```Java```.
@@ -33,7 +39,10 @@ Software developer with over **6 years** of programming experience, currently fo
 
 
 
+<div align="center">
+
 ## Tools & Platforms
+</div>
 
 - **Build Systems**: ```CMake```, ```Premake```.
 - **VCS / CI**: ```Git```, ```GitHub```, ```Github Actions```.
@@ -47,7 +56,10 @@ Software developer with over **6 years** of programming experience, currently fo
 
 
 
+<div align="center">
+
 ## Interests
+</div>
 
 - **Low-level programming** and **systems design**.
 - **Computer graphics** and **rendering**.
@@ -57,7 +69,10 @@ Software developer with over **6 years** of programming experience, currently fo
 
 
 
+<div align="center">
+
 ## Experience
+</div>
 
 - **Open-source contributions**:
   - [skill-icons](https://github.com/LelouchFR/skill-icons)
@@ -66,7 +81,10 @@ Software developer with over **6 years** of programming experience, currently fo
 
 
 
+<div align="center">
+
 ## Projects
+</div>
 
 ### [Graphite](https://github.com/daynlight/Graphite) – Math Visualization Tool (C++)
 
