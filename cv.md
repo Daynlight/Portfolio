@@ -7,7 +7,7 @@
 
 Email: DanielStodulski000@gmail.com  
 Phone: +48 785 919 909  
-GitHub: [github.com/Daynlight](https://github.com/Daynlight)  
+GitHub: [github.com/Daynlight](https://github.com/Daynlight)
 (Active portfolio with systems libraries, rendering tools, and low-level projects)
 
 
