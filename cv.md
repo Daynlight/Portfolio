@@ -1,7 +1,6 @@
 <div align="center">
 
 # **Daniel Stodulski** <br> Software Developer
-
 </div>
 
 
